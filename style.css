@@ -1,0 +1,207 @@
+:root {
+    --text-shadow: rgb(255, 0, 230) 0.8px 0.8px;
+    --color: rgb(0, 234, 255);
+    --background-color: rgb(1, 21, 21);
+    --link-hover: rgb(186, 8, 240);
+
+}
+
+/* root area */
+
+
+@font-face {
+    font-family: sunny ;
+    src: url(SunnyspellsRegular-MV9ze.otf);
+}
+
+@font-face {
+    font-family: gemunu;
+    src: url(GemunuLibre-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: bluescreen;
+    src: url(BlueScreenPersonalUseRegular-0W1M9.ttf);
+}
+/* font area */
+
+
+#main_image {
+    width: 20vh;
+    margin: 5vh auto;
+    display: block;
+    border-radius: 10vh;
+}
+
+#link-image {
+    width: 5vh;
+    float: left;
+    display: block;
+    padding-top: 0.2px;
+    border-radius: 20vh;
+    background-size: 400% 400%;
+    background: linear-gradient(-45deg, #a306a0, #cd05df, #032729, #043437);
+    transition: 500ms;
+	animation: link-color 20s ease infinite;
+}
+
+
+#name, #bio, #header_divider {
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 1px;
+}
+/* image area */
+
+.link-holder1 {
+    background: var(--background-color);
+    width: 75%;
+    display: block;
+    height: 5.2vh;
+    border-radius: 10vh;
+    background: linear-gradient(-45deg, #07bc8c, #09ddc0, #05293c, #053143);
+	background-size: 400% 400%;
+    transition: 1000ms;
+    animation-delay: 10s;
+    animation: 13s linear 4s infinite running link-color;
+
+}
+
+.link-holder2 {
+    background: var(--background-color);
+    width: 75%;
+    display: block;
+    height: 5.2vh;
+    border-radius: 10vh;
+    background: linear-gradient(-45deg, #07bc8c, #09ddc0, #05293c, #053143);
+	background-size: 400% 400%;
+    transition: 1000ms;
+    animation-delay: 15s;
+    animation: 15s linear 3s infinite running link-color;
+}
+
+.link-holder3 {
+    background: var(--background-color);
+    width: 75%;
+    display: block;
+    height: 5.2vh;
+    border-radius: 10vh;
+    background: linear-gradient(-45deg, #07bc8c, #09ddc0, #05293c, #053143);
+	background-size: 400% 400%;
+    transition: 1000ms;
+    animation-delay: 20s;
+    animation: 17s linear 2s infinite running link-color;
+}
+
+.link-holder4 {
+    background: var(--background-color);
+    width: 75%;
+    display: block;
+    height: 5.2vh;
+    border-radius: 10vh;
+    background: linear-gradient(-45deg, #07bc8c, #09ddc0, #05293c, #053143);
+	background-size: 400% 400%;
+    transition: 1000ms;
+    animation: 20s linear 1s infinite running link-color;
+}
+
+@keyframes link-color {
+	0% {
+		background-position: 60% 0%;
+	}
+    25% {
+		background-position: 0% 80%;
+	}
+	50% {
+		background-position: 60% 0%;
+	}
+    75% {
+		background-position: 0% 80%;
+	}
+	100% {
+		background-position: 60% 0%;
+	}
+}
+
+.link-holder1:hover {
+    border-style: hidden;
+    width: 90%;
+}
+.link-holder2:hover {
+    border-style: hidden;
+    width: 90%;
+}
+.link-holder3:hover {
+    border-style: hidden;
+    width: 90%;
+}
+.link-holder4:hover {
+    border-style: hidden;
+    width: 90%;
+}
+
+
+
+
+.text-align {
+    font-size: 15px;
+    display: block;
+    width: 80%;
+    text-align: center;
+    padding-top: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#text {
+    font-style: normal;
+    color: var(--color);
+}
+
+/* link area */
+
+
+
+
+body {
+    font-family: 'gemunu';
+    font-size: 30px;
+    color: var(--color);
+    text-shadow: var(--text-shadow);
+    font-weight: bold;
+    width: 100%;
+    background-color: var(--background-color);
+
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#bio {
+    font-size: 15px;
+    margin: 10px auto;
+    max-width: 10vh;
+}
+
+#header_divider {
+    margin: 10vh auto 5vh auto;
+}
+
+#divider {
+    border-color: var(--color);
+    margin: 32px 20%;
+    box-shadow: var(--text-shadow);
+}
+
+#invisible {
+    margin: 1vh 0 1vh 0;
+    width: 0px;
+}
+
+
