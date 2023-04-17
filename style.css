@@ -55,7 +55,7 @@
 
 .link-holder1 {
     background: var(--background-color);
-    width: 75%;
+    width: 65%;
     display: block;
     height: 5.2vh;
     border-radius: 10vh;
@@ -69,7 +69,7 @@
 
 .link-holder2 {
     background: var(--background-color);
-    width: 75%;
+    width: 65%;
     display: block;
     height: 5.2vh;
     border-radius: 10vh;
@@ -82,7 +82,7 @@
 
 .link-holder3 {
     background: var(--background-color);
-    width: 75%;
+    width: 65%;
     display: block;
     height: 5.2vh;
     border-radius: 10vh;
@@ -95,7 +95,7 @@
 
 .link-holder4 {
     background: var(--background-color);
-    width: 75%;
+    width: 65%;
     display: block;
     height: 5.2vh;
     border-radius: 10vh;
@@ -125,19 +125,19 @@
 
 .link-holder1:hover {
     border-style: hidden;
-    width: 90%;
+    width: 80%;
 }
 .link-holder2:hover {
     border-style: hidden;
-    width: 90%;
+    width: 80%;
 }
 .link-holder3:hover {
     border-style: hidden;
-    width: 90%;
+    width: 80%;
 }
 .link-holder4:hover {
     border-style: hidden;
-    width: 90%;
+    width: 80%;
 }
 
 
@@ -148,7 +148,7 @@
     display: block;
     width: 80%;
     text-align: center;
-    padding-top: 2px;
+    padding-top: 14px;
 }
 
 a {
@@ -202,5 +202,5 @@ body {
 #invisible {
     margin: 1vh 0 1vh 0;
     width: 0px;
-	border-color: var(--background-color);
+    border-color: var(--background-color);
 }
